@@ -1,0 +1,30 @@
+{
+  "telegram": {
+    "bot_token": "DAN_BOT_TOKEN_TU_BOTFATHER_VAO_DAY",
+    "chat_ids": ["DAN_CHAT_ID_VAO_DAY"]
+  },
+  "esp32": {
+    "ip": "192.168.1.50",
+    "port": 80,
+    "alarm_seconds": 60
+  },
+  "speech": {
+    "model_path": "models/vosk-model-small-vn-0.4",
+    "sample_rate": 16000,
+    "input_device": null,
+    "keywords": ["cứu", "cứu tôi", "cứu với", "giúp tôi", "nguy hiểm", "help"],
+    "cooldown_seconds": 8
+  },
+  "camera": {
+    "index": 0,
+    "width": 640,
+    "height": 480,
+    "fps": 20,
+    "pre_seconds": 5,
+    "post_seconds": 10,
+    "show_preview": true
+  },
+  "storage": {
+    "output_dir": "data"
+  }
+}

@@ -1,0 +1,14 @@
+# Cấu hình chứa bot token Telegram -> KHÔNG đẩy lên git
+config.json
+
+# Dữ liệu cảnh báo sinh ra (ảnh, video)
+data/
+
+# Model nhận dạng giọng nói (file lớn, tải riêng)
+models/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
